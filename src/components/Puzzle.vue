@@ -110,7 +110,7 @@ export default {
       }
 
       if (this.isCompleted()) {
-        this.gameMessage = `You win! In takes ${this.moves} steps, and ${this.displayTime}.`;
+        this.gameMessage = "You win!";
         this.stopGame();
       } else {
         this.gameMessage = "Press play to start";
